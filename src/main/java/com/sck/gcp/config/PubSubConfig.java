@@ -17,7 +17,7 @@ public class PubSubConfig {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(PubSubConfig.class);
 
-	@Value("${pub.sub.topic.name}")
+	@Value("${com.sck.pubsub.topic.name}")
 	private String topic;
 
 	@Bean

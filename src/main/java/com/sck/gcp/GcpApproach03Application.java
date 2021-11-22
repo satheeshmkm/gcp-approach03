@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages ={"com.sck"})
-public class GcpApproach01Application {
+public class GcpApproach03Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GcpApproach01Application.class, args);
+		SpringApplication.run(GcpApproach03Application.class, args);
 	}
 }
